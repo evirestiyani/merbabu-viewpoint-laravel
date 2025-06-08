@@ -9,7 +9,6 @@ class PostController extends Controller
 {
     public function home()
     {
-        $posts = Post::latest()->take(3)->get();
         return view('home', compact('posts'));
     }
 
