@@ -109,8 +109,10 @@
                                 keindahan padang sabana yang memukau dan sunrise yang tak terlupakan.
                             </p>
                             <p>
-                                Dikenal dengan julukan <strong class="text-blue-400">"Gunung Sabana"</strong>, Merbabu memiliki
-                                5 jalur pendakian utama yang masing-masing menawarkan pengalaman berbeda. Jalur paling populer
+                                Dikenal dengan julukan <strong class="text-blue-400">"Gunung Sabana"</strong>, Merbabu
+                                memiliki
+                                5 jalur pendakian utama yang masing-masing menawarkan pengalaman berbeda. Jalur paling
+                                populer
                                 adalah via Selo, Wekas, dan Suwanting.
                             </p>
                         </div>
@@ -147,18 +149,6 @@
                                 <p class="text-gray-300">April - Oktober</p>
                             </div>
                         </div>
-
-                        <!-- CTA Button -->
-                        <div class="pt-4">
-                            <a href="{{ route('about') }}"
-                                class="inline-flex items-center space-x-3 bg-gradient-to-r from-green-600 to-blue-600 hover:from-green-700 hover:to-blue-700 text-white px-8 py-4 rounded-full font-bold transition-all duration-300 transform hover:scale-105">
-                                <span>Pelajari Lebih Detail</span>
-                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                                </svg>
-                            </a>
-                        </div>
                     </div>
 
                     <!-- Image Side with Enhanced Design -->
@@ -167,7 +157,8 @@
                             class="relative rounded-3xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-500">
                             <img src="{{ asset('images/merbabubu.jpg') }}" alt="Sabana Merbabu"
                                 class="w-full h-96 lg:h-[500px] object-cover">
-                            <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent">
+                            </div>
                         </div>
 
                         <!-- Decorative Elements -->
@@ -192,8 +183,10 @@
                 </svg>
             </div>
 
+
             <div class="max-w-7xl mx-auto px-4 relative z-10">
                 <!-- Section Header -->
+
                 <div class="text-center mb-20">
                     <div
                         class="inline-flex items-center space-x-2 bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-medium mb-6">
@@ -206,7 +199,8 @@
                     <h3 class="text-5xl md:text-6xl font-black text-gray-800 mb-6">
                         <span class="gradient-text">Jalur Pendakian</span>
                     </h3>
-                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">Pilih jalur yang sesuai dengan pengalaman dan kemampuan
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">Pilih jalur yang sesuai dengan pengalaman dan
+                        kemampuan
                         Anda untuk petualangan yang tak terlupakan</p>
                 </div>
 
@@ -300,7 +294,8 @@
                         </div>
 
                         <div class="p-8">
-                            <p class="text-gray-600 mb-6 leading-relaxed">Jalur dengan tantangan lebih tinggi. Melewati hutan
+                            <p class="text-gray-600 mb-6 leading-relaxed">Jalur dengan tantangan lebih tinggi. Melewati
+                                hutan
                                 pinus dan padang rumput yang menawan serta medan yang beragam.</p>
 
                             <div class="space-y-4 mb-6">
@@ -366,7 +361,8 @@
                         </div>
 
                         <div class="p-8">
-                            <p class="text-gray-600 mb-6 leading-relaxed">Jalur alternatif dengan pemandangan yang tidak kalah
+                            <p class="text-gray-600 mb-6 leading-relaxed">Jalur alternatif dengan pemandangan yang tidak
+                                kalah
                                 indah. Cocok untuk yang ingin menghindari keramaian.</p>
 
                             <div class="space-y-4 mb-6">
@@ -415,7 +411,8 @@
                     <div
                         class="bg-white/80 backdrop-blur-sm rounded-3xl p-12 max-w-4xl mx-auto shadow-xl border border-white/50">
                         <h4 class="text-3xl font-black text-gray-800 mb-6">Butuh Panduan Lengkap?</h4>
-                        <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">Dapatkan informasi detail tentang semua jalur
+                        <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">Dapatkan informasi detail tentang semua
+                            jalur
                             pendakian, tips persiapan, dan panduan lengkap untuk petualangan Anda.</p>
                         <div class="flex flex-col sm:flex-row gap-4 justify-center">
                             <a href="#"
@@ -441,7 +438,8 @@
         </section>
 
         <!-- Enhanced Gallery Preview with Masonry Layout -->
-        <section class="py-24 bg-gradient-to-br from-slate-900 via-gray-900 to-slate-800 text-white relative overflow-hidden">
+        <section
+            class="py-24 bg-gradient-to-br from-slate-900 via-gray-900 to-slate-800 text-white relative overflow-hidden">
             <!-- Animated Background Elements -->
             <div class="absolute inset-0">
                 <div
@@ -452,204 +450,196 @@
                 </div>
             </div>
 
-            <div class="max-w-7xl mx-auto px-4 relative z-10">
-                <!-- Section Header -->
-                <div class="text-center mb-20">
-                    <div
-                        class="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-sm text-white px-4 py-2 rounded-full text-sm font-medium mb-6">
-                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <section id="gallery">
+                <div class="max-w-7xl mx-auto px-4 relative z-10">
+                    <!-- Section Header -->
+                    <div class="text-center mb-20">
+                        <div
+                            class="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-sm text-white px-4 py-2 rounded-full text-sm font-medium mb-6">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                            </svg>
+                            <span>Dokumentasi Visual</span>
+                        </div>
+                        <h3 class="text-5xl md:text-6xl font-black mb-6">
+                            <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-400">
+                                Galeri Keindahan
+                            </span>
+                        </h3>
+                        <p class="text-xl text-gray-300 max-w-3xl mx-auto">Saksikan keajaiban Gunung Merbabu melalui
+                            koleksi
+                            foto
+                            spektakuler dari para pendaki</p>
+                    </div>
+
+                    <!-- Masonry Gallery Grid -->
+                    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-16">
+                        <!-- Gallery Item 1 -->
+                        <div
+                            class="group relative overflow-hidden rounded-2xl bg-gray-800 hover:scale-105 transition-all duration-500">
+                            <div class="aspect-[3/4] overflow-hidden">
+                                <img src="{{ asset('images/sunrise.jpg') }}" alt="Deskripsi Gambar"
+                                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+                            </div>
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <div class="absolute bottom-4 left-4 right-4">
+                                    <h4 class="text-white font-bold mb-1">Sunrise di Puncak</h4>
+                                    <p class="text-white/80 text-sm">Via Selo</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Gallery Item 2 -->
+                        <div
+                            class="group relative overflow-hidden rounded-2xl bg-gray-800 hover:scale-105 transition-all duration-500">
+                            <div class="aspect-[3/4] overflow-hidden">
+                                <img src="{{ asset('images/sabana.jpg') }}" alt="Deskripsi Gambar"
+                                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+                            </div>
+
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <div class="absolute bottom-4 left-4 right-4">
+                                    <h4 class="text-white font-bold mb-1">Sabana Luas</h4>
+                                    <p class="text-white/80 text-sm">Via Suwanting</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Gallery Item 3 -->
+                        <div
+                            class="group relative overflow-hidden rounded-2xl bg-gray-800 hover:scale-105 transition-all duration-500">
+                            <div class="aspect-[3/4] overflow-hidden">
+                                <img src="{{ asset('images/lautanawan.jpg') }}" alt="Lautan Awan"
+                                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+                            </div>
+
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <div class="absolute bottom-4 left-4 right-4">
+                                    <h4 class="text-white font-bold mb-1">Lautan Awan</h4>
+                                    <p class="text-white/80 text-sm">Dini Hari</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Gallery Item 4 -->
+                        <div
+                            class="group relative overflow-hidden rounded-2xl bg-gray-800 hover:scale-105 transition-all duration-500">
+                            <div class="aspect-[3/4] overflow-hidden">
+                                <img src="{{ asset('images/campingground.jpg') }}" alt="Camping Ground"
+                                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+                            </div>
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <div class="absolute bottom-4 left-4 right-4">
+                                    <h4 class="text-white font-bold mb-1">Camping Ground</h4>
+                                    <p class="text-white/80 text-sm">Base Camp</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Gallery Item 5 -->
+                        <div
+                            class="group relative overflow-hidden rounded-2xl bg-gray-800 hover:scale-105 transition-all duration-500 md:col-span-2">
+                            <div
+                                class="aspect-[3/2] overflow-hidden rounded-2xl shadow-lg group hover:shadow-xl transition-shadow duration-500">
+                                <img src="{{ asset('images/panorama.jpg') }}" alt="Trek Merbabu"
+                                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 align-middle" />
+                            </div>
+
+
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <div class="absolute bottom-4 left-4 right-4">
+                                    <h4 class="text-white font-bold mb-1">Panorama 360°</h4>
+                                    <p class="text-white/80 text-sm">View dari Puncak</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Gallery Item 6 -->
+                        <div
+                            class="group relative w-full max-w-sm mx-auto overflow-hidden rounded-2xl bg-gray-800 transition-transform duration-500 hover:scale-105">
+                            <div class="aspect-[3/4] w-full overflow-hidden">
+                                <img src="{{ asset('images/trek2.jpg') }}" alt="trek-merbabu"
+                                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+                            </div>
+
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <div class="absolute bottom-4 left-4 right-4">
+                                    <h4 class="text-white font-bold mb-1 text-lg">Jalur Pendakian</h4>
+                                    <p class="text-white/80 text-sm">Via Wekas</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <!-- Gallery Item 7 -->
+                        <div
+                            class="group relative overflow-hidden rounded-2xl bg-gray-800 hover:scale-105 transition-all duration-500">
+                            <div class="aspect-[3/4] overflow-hidden">
+                                <img src="{{ asset('images/pohon.jpg') }}" alt="sabana-merbabu"
+                                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+                            </div>
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <div class="absolute bottom-4 left-4 right-4">
+                                    <h4 class="text-white font-bold mb-1">Sabana Luas</h4>
+                                    <p class="text-white/80 text-sm">Puncak Merbabu</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+
+            <!-- Gallery CTA -->
+            <div class="text-center">
+                <div class="rounded-3xl p-10 max-w-4xl mx-auto bg-white/10 backdrop-blur-md border border-white/10">
+                    <h4 class="text-3xl font-bold text-white mb-4">Lihat Koleksi Lengkap</h4>
+                    <p class="text-lg text-gray-200 mb-6">
+                        Jelajahi ratusan foto menakjubkan dari berbagai sudut Gunung Merbabu yang diabadikan oleh para
+                        pendaki.
+                    </p>
+                    <a href="{{ route('gallery') }}"
+                        class="inline-flex items-center gap-2 bg-gradient-to-r from-green-600 to-blue-600 hover:from-green-700 hover:to-blue-700 text-white px-8 py-3 rounded-full font-semibold text-base transition-all duration-300 transform hover:scale-105">
+                        <span>Jelajahi Galeri Lengkap</span>
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                                d="M17 8l4 4m0 0l-4 4m4-4H3" />
                         </svg>
-                        <span>Dokumentasi Visual</span>
-                    </div>
-                    <h3 class="text-5xl md:text-6xl font-black mb-6">
-                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-400">
-                            Galeri Keindahan
-                        </span>
-                    </h3>
-                    <p class="text-xl text-gray-300 max-w-3xl mx-auto">Saksikan keajaiban Gunung Merbabu melalui koleksi foto
-                        spektakuler dari para pendaki</p>
+                    </a>
                 </div>
+            </div>
 
-                <!-- Masonry Gallery Grid -->
-                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-16">
-                    <!-- Gallery Item 1 -->
-                    <div
-                        class="group relative overflow-hidden rounded-2xl bg-gray-800 hover:scale-105 transition-all duration-500">
-                        <div class="aspect-[3/4] overflow-hidden">
-                            <img src="{{ asset('images/sunrise.jpg') }}" alt="Deskripsi Gambar"
-                                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
-                        </div>
-                        <div
-                            class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                            <div class="absolute bottom-4 left-4 right-4">
-                                <h4 class="text-white font-bold mb-1">Sunrise di Puncak</h4>
-                                <p class="text-white/80 text-sm">Via Selo</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Gallery Item 2 -->
-                    <div
-                        class="group relative overflow-hidden rounded-2xl bg-gray-800 hover:scale-105 transition-all duration-500">
-                        <div class="aspect-[3/4] overflow-hidden">
-                            <img src="{{ asset('images/sabana.jpg') }}" alt="Deskripsi Gambar"
-                                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
-                        </div>
-
-                        <div
-                            class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                            <div class="absolute bottom-4 left-4 right-4">
-                                <h4 class="text-white font-bold mb-1">Sabana Luas</h4>
-                                <p class="text-white/80 text-sm">Via Suwanting</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Gallery Item 3 -->
-                    <div
-                        class="group relative overflow-hidden rounded-2xl bg-gray-800 hover:scale-105 transition-all duration-500">
-                        <div class="aspect-[3/4] overflow-hidden">
-                            <img src="{{ asset('images/lautanawan.jpg') }}" alt="Lautan Awan"
-                                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
-                        </div>
-
-                        <div
-                            class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                            <div class="absolute bottom-4 left-4 right-4">
-                                <h4 class="text-white font-bold mb-1">Lautan Awan</h4>
-                                <p class="text-white/80 text-sm">Dini Hari</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Gallery Item 4 -->
-                    <div
-                        class="group relative overflow-hidden rounded-2xl bg-gray-800 hover:scale-105 transition-all duration-500">
-                        <div class="aspect-[3/4] overflow-hidden">
-                            <img src="{{ asset('images/campingground.jpg') }}" alt="Camping Ground"
-                                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
-                        </div>
-                        <div
-                            class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                            <div class="absolute bottom-4 left-4 right-4">
-                                <h4 class="text-white font-bold mb-1">Camping Ground</h4>
-                                <p class="text-white/80 text-sm">Base Camp</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Gallery Item 5 -->
-                    <div
-                        class="group relative overflow-hidden rounded-2xl bg-gray-800 hover:scale-105 transition-all duration-500 md:col-span-2">
-                        <div
-                            class="aspect-[3/2] overflow-hidden rounded-2xl shadow-lg group hover:shadow-xl transition-shadow duration-500">
-                            <img src="{{ asset('images/panorama.jpg') }}" alt="Trek Merbabu"
-                                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 align-middle" />
-                        </div>
-
-
-                        <div
-                            class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                            <div class="absolute bottom-4 left-4 right-4">
-                                <h4 class="text-white font-bold mb-1">Panorama 360°</h4>
-                                <p class="text-white/80 text-sm">View dari Puncak</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Gallery Item 6 -->
-                    <div
-                        class="group relative overflow-hidden rounded-2xl bg-gray-800 hover:scale-105 transition-all duration-500">
-                        <div class="aspect-[3/4] overflow-hidden">
-                            <img src="{{ asset('images/trek2.jpg') }}" alt="trek-merbabu"
-                                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
-                        </div>
-
-                        <div
-                            class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                            <div class="absolute bottom-4 left-4 right-4">
-                                <h4 class="text-white font-bold mb-1">Jalur Pendakian</h4>
-                                <p class="text-white/80 text-sm">Via Wekas</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Gallery Item 7 -->
-                    <div
-                        class="group relative overflow-hidden rounded-2xl bg-gray-800 hover:scale-105 transition-all duration-500">
-                        <div class="aspect-[3/4] overflow-hidden">
-                            <img src="{{ asset('images/pohon.jpg') }}" alt="sabana-merbabu"
-                                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
-                        </div>
-                        <div
-                            class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                            <div class="absolute bottom-4 left-4 right-4">
-                                <h4 class="text-white font-bold mb-1">Sabana Luas</h4>
-                                <p class="text-white/80 text-sm">Puncak Merbabu</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <!-- Gallery CTA -->
-                <div class="text-center">
-                    <div class="glass-effect rounded-3xl p-12 max-w-4xl mx-auto border border-white/10">
-                        <h4 class="text-3xl font-black text-white mb-6">Lihat Koleksi Lengkap</h4>
-                        <p class="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">Jelajahi ratusan foto menakjubkan dari berbagai
-                            sudut Gunung Merbabu yang diabadikan oleh para pendaki</p>
-                        <a href="#"
-                            class="inline-flex items-center space-x-3 bg-gradient-to-r from-green-600 to-blue-600 hover:from-green-700 hover:to-blue-700 text-white px-10 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105">
-                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
-                            </svg>
-                            <span>Jelajahi Galeri Lengkap</span>
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                            </svg>
-                        </a>
-                    </div>
-                </div>
             </div>
         </section>
 
-        <!-- Enhanced Recent Posts Section -->
-        <section class="py-24 bg-gradient-to-br from-gray-50 via-white to-green-50 relative overflow-hidden">
-            <!-- Background Elements -->
-            <div class="absolute inset-0 opacity-5">
-                <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
-                    <defs>
-                        <pattern id="hexagons" width="40" height="40" patternUnits="userSpaceOnUse">
-                            <polygon points="20,5 35,15 35,25 20,35 5,25 5,15" fill="none" stroke="#059669"
-                                stroke-width="1" />
-                        </pattern>
-                    </defs>
-                    <rect width="100%" height="100%" fill="url(#hexagons)" />
-                </svg>
-            </div>
 
-            <!-- Article Cards -->
-            <div class="px-4 mb-6 text-center max-w-2xl mx-auto">
-                <h2 class="text-2xl font-bold text-gray-800 mb-2">Baca Artikel Pilihan</h2>
+        <!-- Article Cards -->
+        <section id="artikel" class="py-12 bg-gray-50">
+            <div class="px-4 mb-10 text-center max-w-2xl mx-auto">
+                <h2 class="text-3xl font-bold text-gray-800 mb-2">Baca Artikel Pilihan</h2>
                 <p class="text-gray-600">
-                    Dapatkan informasi, tips, dan panduan seru seputar pendakian Gunung Merbabu. Cocok untuk pemula maupun
-                    pendaki berpengalaman!
+                    Dapatkan informasi, tips, dan panduan seru seputar pendakian Gunung Merbabu. Cocok untuk
+                    pemula maupun pendaki berpengalaman!
                 </p>
             </div>
 
-            <div class="overflow-x-auto">
-                <div class="flex gap-6 px-4">
+            <div class="overflow-x-auto px-4">
+                <div class="flex gap-6">
                     <!-- Card 1 -->
                     <div
-                        class="min-w-[300px] bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
-                        <img src="{{ asset('images/tips2.jpg') }}" alt="Panduan Mendaki Merbabu"
-                            class="w-full h-48 object-cover">
+                        class="group min-w-[300px] bg-white rounded-2xl shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl hover:scale-105 transform active:scale-95">
+                        <div class="overflow-hidden h-48">
+                            <img src="{{ asset('images/tips2.jpg') }}"
+                                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                                alt="Panduan Mendaki Merbabu untuk Pemula" />
+                        </div>
                         <div class="p-6">
                             <h4 class="text-xl font-semibold mb-2 text-gray-800">
                                 Panduan Mendaki Merbabu untuk Pemula
@@ -657,17 +647,20 @@
                             <p class="text-gray-600 mb-4">
                                 Tips lengkap bagi pendaki pemula agar perjalanan aman dan menyenangkan.
                             </p>
-                            <a href="#" class="text-green-600 font-medium hover:underline transition-colors">
-                                Baca Selengkapnya →
-                            </a>
+                            <a href="{{ route('panduan') }}"
+                                class="text-green-600 font-medium hover:underline transition-colors">Baca Selengkapnya
+                                →</a>
                         </div>
                     </div>
 
                     <!-- Card 2 -->
                     <div
-                        class="min-w-[300px] bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
-    <img src="{{ asset('images/peralatan.jpg') }}" alt="Peralatan Mendaki"
-                            class="w-full h-48 object-cover">
+                        class="group min-w-[300px] bg-white rounded-2xl shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl hover:scale-105 transform active:scale-95">
+                        <div class="overflow-hidden h-48">
+                            <img src="{{ asset('images/peralatan.jpg') }}"
+                                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                                alt="Peralatan Wajib saat Mendaki Merbabu" />
+                        </div>
                         <div class="p-6">
                             <h4 class="text-xl font-semibold mb-2 text-gray-800">
                                 Peralatan Wajib saat Mendaki Merbabu
@@ -675,17 +668,20 @@
                             <p class="text-gray-600 mb-4">
                                 Checklist perlengkapan penting agar pendakian lebih aman dan nyaman.
                             </p>
-                            <a href="#" class="text-green-600 font-medium hover:underline transition-colors">
-                                Baca Selengkapnya →
-                            </a>
+                            <a href="{{ route('peralatan') }}"
+                                class="text-green-600 font-medium hover:underline transition-colors">Baca
+                                Selengkapnya →</a>
                         </div>
                     </div>
 
                     <!-- Card 3 -->
                     <div
-                        class="min-w-[300px] bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
-                    <img src="{{ asset('images/spot.jpg') }}" alt="Spot Sunrise Merbabu"
-                            class="w-full h-48 object-cover">
+                        class="group min-w-[300px] bg-white rounded-2xl shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl hover:scale-105 transform active:scale-95">
+                        <div class="overflow-hidden h-48">
+                            <img src="{{ asset('images/spot.jpg') }}"
+                                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                                alt="5 Spot Sunrise Terbaik di Gunung Merbabu" />
+                        </div>
                         <div class="p-6">
                             <h4 class="text-xl font-semibold mb-2 text-gray-800">
                                 5 Spot Sunrise Terbaik di Gunung Merbabu
@@ -693,12 +689,13 @@
                             <p class="text-gray-600 mb-4">
                                 Temukan titik terbaik untuk menyaksikan keindahan matahari terbit di Merbabu.
                             </p>
-                            <a href="#" class="text-green-600 font-medium hover:underline transition-colors">
-                                Baca Selengkapnya →
-                            </a>
+                            <a href="{{ route('spot') }}"
+                                class="text-green-600 font-medium hover:underline transition-colors">Baca
+                                Selengkapnya →</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
     @endsection

@@ -7,37 +7,27 @@ use Illuminate\Http\Request;
 
 class PostController extends Controller
 {
-    /**
-     * Menampilkan halaman beranda dengan 3 artikel terbaru.
-     *
-     * @return \Illuminate\View\View
-     */
     public function home()
     {
         $posts = Post::latest()->take(3)->get();
         return view('home', compact('posts'));
     }
 
-    /**
-     * Menampilkan daftar semua artikel.
-     *
-     * @return \Illuminate\View\View
-     */
-    public function index()
+    public function panduan()
     {
-        $posts = Post::latest()->paginate(6);
-        return view('posts.show', compact('posts'));
+        return view('panduan');
     }
 
-    /**
-     * Menampilkan detail artikel berdasarkan slug.
-     *
-     * @param  string  $slug
-     * @return \Illuminate\View\View
-     */
-    public function show($slug)
+    public function peralatan()
     {
-        $post = Post::where('slug', $slug)->firstOrFail();
-        return view('posts.show', compact('post'));
+        return view('peralatan');
+    }
+     public function spot()
+    {
+        return view('spot');
+    }
+       public function gallery()
+    {
+        return view('gallery');
     }
 }
