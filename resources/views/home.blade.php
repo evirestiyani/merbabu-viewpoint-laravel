@@ -61,7 +61,7 @@
                                     d="M17 8l4 4m0 0l-4 4m4-4H3" />
                             </svg>
                         </a>
-                        <a href="#"
+                        <a href="{{ route('panduan') }}"
                             class="group border-2 border-white/80 text-white hover:bg-white hover:text-gray-800 px-10 py-4 rounded-full font-bold text-lg transition-all duration-300 backdrop-blur-sm flex items-center space-x-3">
                             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -415,7 +415,7 @@
                             jalur
                             pendakian, tips persiapan, dan panduan lengkap untuk petualangan Anda.</p>
                         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                            <a href="#"
+                            <a href="{{ route('panduan') }}"
                                 class="bg-gradient-to-r from-green-600 to-blue-600 hover:from-green-700 hover:to-blue-700 text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2">
                                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -423,7 +423,7 @@
                                 </svg>
                                 <span>Panduan Lengkap</span>
                             </a>
-                            <a href="#"
+                            <a href="{{ route('gallery') }}"
                                 class="border-2 border-gray-300 hover:border-gray-400 text-gray-700 hover:bg-gray-50 px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 flex items-center justify-center space-x-2">
                                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -630,69 +630,100 @@
                 </p>
             </div>
 
-            <div class="overflow-x-auto px-4">
-                <div class="flex gap-6">
-                    <!-- Card 1 -->
-                    <div
-                        class="group min-w-[300px] bg-white rounded-2xl shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl hover:scale-105 transform active:scale-95">
-                        <div class="overflow-hidden h-48">
-                            <img src="{{ asset('images/tips2.jpg') }}"
-                                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                                alt="Panduan Mendaki Merbabu untuk Pemula" />
+            <!-- Scroll Horizontal Wrapper -->
+            <div class="relative px-4">
+                <div class="mx-auto max-w-7xl overflow-x-auto scrollbar-hide">
+                    <div class="flex space-x-6 w-max">
+                        <!-- Card 1 -->
+                        <div
+                            class="w-72 flex-shrink-0 group bg-white rounded-2xl shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl hover:scale-105">
+                            <div class="overflow-hidden h-48">
+                                <img src="{{ asset('images/tips2.jpg') }}"
+                                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                                    alt="Panduan Mendaki Merbabu untuk Pemula" />
+                            </div>
+                            <div class="p-6">
+                                <h4 class="text-xl font-semibold mb-2 text-gray-800">Panduan Mendaki Merbabu untuk Pemula
+                                </h4>
+                                <p class="text-gray-600 mb-4">Tips lengkap bagi pendaki pemula agar perjalanan aman dan
+                                    menyenangkan.</p>
+                                <a href="{{ route('panduan') }}" class="text-green-600 font-medium hover:underline">Baca
+                                    Selengkapnya →</a>
+                            </div>
                         </div>
-                        <div class="p-6">
-                            <h4 class="text-xl font-semibold mb-2 text-gray-800">
-                                Panduan Mendaki Merbabu untuk Pemula
-                            </h4>
-                            <p class="text-gray-600 mb-4">
-                                Tips lengkap bagi pendaki pemula agar perjalanan aman dan menyenangkan.
-                            </p>
-                            <a href="{{ route('panduan') }}"
-                                class="text-green-600 font-medium hover:underline transition-colors">Baca Selengkapnya
-                                →</a>
-                        </div>
-                    </div>
 
-                    <!-- Card 2 -->
-                    <div
-                        class="group min-w-[300px] bg-white rounded-2xl shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl hover:scale-105 transform active:scale-95">
-                        <div class="overflow-hidden h-48">
-                            <img src="{{ asset('images/peralatan.jpg') }}"
-                                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                                alt="Peralatan Wajib saat Mendaki Merbabu" />
+                        <!-- Card 2 -->
+                        <div
+                            class="w-72 flex-shrink-0 group bg-white rounded-2xl shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl hover:scale-105">
+                            <div class="overflow-hidden h-48">
+                                <img src="{{ asset('images/peralatan.jpg') }}"
+                                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                                    alt="Peralatan Wajib saat Mendaki Merbabu" />
+                            </div>
+                            <div class="p-6">
+                                <h4 class="text-xl font-semibold mb-2 text-gray-800">Peralatan Wajib saat Mendaki Merbabu
+                                </h4>
+                                <p class="text-gray-600 mb-4">Checklist perlengkapan penting agar pendakian lebih aman dan
+                                    nyaman.</p>
+                                <a href="{{ route('peralatan') }}"
+                                    class="text-green-600 font-medium hover:underline">Baca Selengkapnya →</a>
+                            </div>
                         </div>
-                        <div class="p-6">
-                            <h4 class="text-xl font-semibold mb-2 text-gray-800">
-                                Peralatan Wajib saat Mendaki Merbabu
-                            </h4>
-                            <p class="text-gray-600 mb-4">
-                                Checklist perlengkapan penting agar pendakian lebih aman dan nyaman.
-                            </p>
-                            <a href="{{ route('peralatan') }}"
-                                class="text-green-600 font-medium hover:underline transition-colors">Baca
-                                Selengkapnya →</a>
-                        </div>
-                    </div>
 
-                    <!-- Card 3 -->
-                    <div
-                        class="group min-w-[300px] bg-white rounded-2xl shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl hover:scale-105 transform active:scale-95">
-                        <div class="overflow-hidden h-48">
-                            <img src="{{ asset('images/spot.jpg') }}"
-                                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                                alt="5 Spot Sunrise Terbaik di Gunung Merbabu" />
+                        <!-- Card 3 -->
+                        <div
+                            class="w-72 flex-shrink-0 group bg-white rounded-2xl shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl hover:scale-105">
+                            <div class="overflow-hidden h-48">
+                                <img src="{{ asset('images/spot.jpg') }}"
+                                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                                    alt="5 Spot Sunrise Terbaik di Gunung Merbabu" />
+                            </div>
+                            <div class="p-6">
+                                <h4 class="text-xl font-semibold mb-2 text-gray-800">5 Spot Sunrise Terbaik di Gunung
+                                    Merbabu</h4>
+                                <p class="text-gray-600 mb-4">Temukan titik terbaik untuk menyaksikan keindahan matahari
+                                    terbit di Merbabu.</p>
+                                <a href="{{ route('spot') }}" class="text-green-600 font-medium hover:underline">Baca
+                                    Selengkapnya →</a>
+                            </div>
                         </div>
-                        <div class="p-6">
-                            <h4 class="text-xl font-semibold mb-2 text-gray-800">
-                                5 Spot Sunrise Terbaik di Gunung Merbabu
-                            </h4>
-                            <p class="text-gray-600 mb-4">
-                                Temukan titik terbaik untuk menyaksikan keindahan matahari terbit di Merbabu.
-                            </p>
-                            <a href="{{ route('spot') }}"
-                                class="text-green-600 font-medium hover:underline transition-colors">Baca
-                                Selengkapnya →</a>
+
+                        <!-- Card 4 -->
+                        <div
+                            class="w-72 flex-shrink-0 group bg-white rounded-2xl shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl hover:scale-105">
+                            <div class="overflow-hidden h-48">
+                                <img src="{{ asset('images/tips2.jpg') }}"
+                                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                                    alt="Panduan Mendaki Merbabu untuk Pemula" />
+                            </div>
+                            <div class="p-6">
+                                <h4 class="text-xl font-semibold mb-2 text-gray-800">Panduan Mendaki Merbabu untuk Pemula
+                                </h4>
+                                <p class="text-gray-600 mb-4">Tips lengkap bagi pendaki pemula agar perjalanan aman dan
+                                    menyenangkan.</p>
+                                <a href="{{ route('panduan') }}" class="text-green-600 font-medium hover:underline">Baca
+                                    Selengkapnya →</a>
+                            </div>
                         </div>
+
+                        <!-- Card 5-->
+                        <div
+                            class="w-72 flex-shrink-0 group bg-white rounded-2xl shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl hover:scale-105">
+                            <div class="overflow-hidden h-48">
+                                <img src="{{ asset('images/peralatan.jpg') }}"
+                                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                                    alt="Peralatan Wajib saat Mendaki Merbabu" />
+                            </div>
+                            <div class="p-6">
+                                <h4 class="text-xl font-semibold mb-2 text-gray-800">Peralatan Wajib saat Mendaki Merbabu
+                                </h4>
+                                <p class="text-gray-600 mb-4">Checklist perlengkapan penting agar pendakian lebih aman dan
+                                    nyaman.</p>
+                                <a href="{{ route('peralatan') }}"
+                                    class="text-green-600 font-medium hover:underline">Baca Selengkapnya →</a>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>

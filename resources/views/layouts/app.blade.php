@@ -72,6 +72,16 @@
         .animate-fade-in-up {
             animation: fadeInUp 0.6s ease forwards;
         }
+
+        /* Hide scrollbar cross-browser */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
     </style>
 </head>
 
